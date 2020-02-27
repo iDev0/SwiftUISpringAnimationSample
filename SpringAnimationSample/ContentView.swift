@@ -22,6 +22,8 @@ struct ContentView: View {
                 .frame(width: 200, height: 200)
                 .rotationEffect(.degrees(rotatingAngle))
                 .animation(.interpolatingSpring(mass: 1, stiffness: 1, damping: 0.5, initialVelocity: 1))
+            
+            
         }
         
         
